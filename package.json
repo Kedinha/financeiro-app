@@ -1,0 +1,16 @@
+{
+	"name": "financeiro",
+	"version": "1.0.0",
+	"description": "Projeto financeiro para gerenciamento de contas a pagar e contas a receber.",
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"author": "Seu Nome",
+	"license": "MIT",
+	"dependencies": {
+		"body-parser": "^1.20.3",
+		"express": "^4.21.2",
+		"sqlite3": "^5.1.7"
+	}
+}

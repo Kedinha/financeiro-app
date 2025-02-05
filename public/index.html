@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financeiro</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <div id="financeiro">
+        <h1>Financeiro</h1>
+        <div id="contas-a-pagar">
+            <h2>Lançamento de Contas a Pagar</h2>
+            <input type="text" id="descricao-pagar-1" placeholder="Descrição 1">
+            <input type="number" id="valor-pagar-1" placeholder="Valor 1">
+            <input type="text" id="descricao-pagar-2" placeholder="Descrição 2">
+            <input type="number" id="valor-pagar-2" placeholder="Valor 2">
+            <button onclick="somarContasAPagar()">Somar Contas a Pagar</button>
+            <p>Total Contas a Pagar: <span id="total-pagar">0</span></p>
+            <ul id="lista-pagar"></ul>
+        </div>
+        <div id="contas-a-receber">
+            <h2>Contas a Receber</h2>
+            <input type="text" id="descricao-receber-1" placeholder="Descrição 1">
+            <input type="number" id="valor-receber-1" placeholder="Valor 1">
+            <input type="text" id="descricao-receber-2" placeholder="Descrição 2">
+            <input type="number" id="valor-receber-2" placeholder="Valor 2">
+            <button onclick="somarContasAReceber()">Somar Contas a Receber</button>
+            <p>Total Contas a Receber: <span id="total-receber">0</span></p>
+            <ul id="lista-receber"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
