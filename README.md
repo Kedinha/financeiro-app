@@ -41,21 +41,22 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull r
 
 ## Hierarquia de pastas
 
-financeiro-app/
-│
-├── node_modules/ # Pasta gerada pelo npm com as dependências do projeto
-├── public/ # Arquivos públicos acessíveis pelo navegador
-│ ├── index.html # Página principal da aplicação
-│ └── assets/ # Outras pastas de ativos (imagens, CSS, etc.)
-│ ├── css/
-│ └── js/
-│
-├── src/ # Código-fonte do projeto
-│ ├── controllers/ # Arquivos que controlam a lógica da aplicação
-│ ├── models/ # Arquivos que definem os modelos e interagem com o banco de dados
-│ └── routes/ # Arquivos que definem as rotas da API
-│
-├── .gitignore # Arquivos e pastas a serem ignorados pelo Git
-├── package.json # Arquivo de configuração do npm com dependências e scripts
-├── package-lock.json # Arquivo gerado pelo npm com o bloqueio de versões das dependências
-└── server.js # Arquivo principal do servidor Node.js
+financeiro-app/<br>
+│<br>
+├── node_modules/  `# Pasta gerada pelo npm com as dependências do projeto`<br>
+├── public/  `# Arquivos públicos acessíveis pelo navegador`<br>
+│ ├── index.html  `# Página principal da aplicação`<br>
+│ └── assets/  `# Outras pastas de ativos (imagens, CSS, etc.)`<br>
+│ ├── css/<br>
+│ └── js/<br>
+│<br>
+├── src/ # Código-fonte do projeto<br>
+│ ├── controllers/ `# Arquivos que controlam a lógica da aplicação`<br>
+│ ├── models/  `# Arquivos que definem os modelos e interagem com o banco de dados`<br>
+│ └── routes/  `# Arquivos que definem as rotas da API`<br>
+│<br>
+├── .gitignore  `# Arquivos e pastas a serem ignorados pelo Git`<br>
+├── package.json  `# Arquivo de configuração do npm com dependências e scripts`<br>
+├── package-lock.json `# Arquivo gerado pelo npm com o bloqueio de versões das dependências`<br>
+└── server.js  `# Arquivo principal do servidor Node.js`<br>
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5a4d2763-8adf-4a75-9b8e-090c543afd0e/deploy-status)](https://app.netlify.com/sites/deft-finance-app/deploys)
