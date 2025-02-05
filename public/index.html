@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Financeiro</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+    <title>Controle Financeiro</title>
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
@@ -31,8 +32,9 @@
             <p>Total Contas a Receber: <span id="total-receber">0</span></p>
             <ul id="lista-receber"></ul>
         </div>
+        <button onclick="gerarPDF()">Gerar PDF</button>
     </div>
-    <script src="script.js"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>
